@@ -1,7 +1,7 @@
 @media only screen and (max-width:1440px) {
     .search-box {
         position: absolute;
-        right: 100px;
+        right: 200px;
         width: 200px;
         height: 35px;
         background-color: #f7f7f7;
@@ -57,13 +57,49 @@
 }
 
 @media (max-width:768px) {
-
-    .navigation ul li {
-        font-size: 16px;
+    .header{
+        justify-content: flex-start;
+    }
+    .logo {
+        margin-left: 0;
     }
 
-    
-    
+    .navigation{
+        display: none;
+    }
+    .navigation ul li {
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navigation ul div{
+        width: 100%;
+    }
+
+    .navigation ul{
+        flex-wrap: wrap;
+        
+    }
+
+    .progress-container{
+        display: none;
+    }
+
+    .nav-content-search,
+    .nav-content-account{
+        display: inherit !important;
+        justify-content: center;
+    }
+
+    .quit-and-user,
+    .search-box {
+        display: none;
+    }
+
+    #menubtn {
+        display: inherit;
+    }
 
 }
 
@@ -73,6 +109,24 @@
         font-size: 50%;
     }
 
+    .hero-section{
+        display: none;
+    }
+
+    .all-content-product{
+        margin-top: 50px;
+    }
+
+    #menubtn {
+        color: black;
+    }
+    .navigation ul li{
+        color: black !important;
+    }
+
+    .navigation ul li:hover{
+        background-color: white;
+    }
 
     .footer {
         text-align: center;

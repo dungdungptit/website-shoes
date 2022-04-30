@@ -50,6 +50,18 @@ html {
 
 /* navigation-header---------------------------------------- */
 
+#menubtn {
+    display: none;
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    color: #fff;
+    font-size: 24px;
+    z-index: 1;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
 nav {
     position: relative;
     width: 100%;
@@ -178,6 +190,7 @@ ul {
     box-sizing: border-box;
     width: 100%;
     z-index: 1000;
+    transition: all 0.5s ease;
 }
 
 .navigation ul {

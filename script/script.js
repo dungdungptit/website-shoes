@@ -167,3 +167,11 @@ function redirectList(){
 
 // end redirect
 
+$("#menubtn").click(function () {
+    if($(".navigation").css("display")=="none"){
+        $(".navigation").show();
+    }
+    else{
+        $(".navigation").hide();
+    }
+});
