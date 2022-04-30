@@ -152,6 +152,7 @@ ul {
 .icon-nav .quit-and-user {
     position: relative;
     right: 50px;
+    top: -5px;
 }
 
 .icon-nav .quit-and-user .fa-circle-user {
