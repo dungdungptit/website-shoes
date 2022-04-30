@@ -119,7 +119,7 @@ ul {
 
 .search-box {
     position: absolute;
-    right: 650px;
+    right: 200px;
     width: 550px;
     height: 45px;
     background-color: #f7f7f7;
@@ -236,7 +236,7 @@ ul {
 
 .hero-slide-item {
     position: relative;
-    overflow: hidden;
+    height: 110vh;
 }
 
 .hero-slide-item:before {
@@ -336,7 +336,7 @@ ul {
 .item-content {
     position: absolute;
     top: 72%;
-    left: 230px;
+    left: 200px;
     color: white;
     margin-top: 10px;
     font-size: 1.2rem;
@@ -345,7 +345,7 @@ ul {
 .item-date {
     position: absolute;
     top: 75%;
-    left: 230px;
+    left: 200px;
     color: white;
     margin-top: 15px;
     font-size: 1.2rem;
